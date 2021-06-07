@@ -6,12 +6,14 @@ Analysis code for Research Project 2 - PRAAT study at the UMC Utrecht 2020-2021.
 
 1. Start by supplying the paths to the installations and files
 
-`os_sep = os.path.abspath(os.sep)
+`
+os_sep = os.path.abspath(os.sep)
 opensmile_dir = os.path.join(os_sep, '') #openSMILE installation location
 praat_path = os.path.join(os_sep, 'Applications','Praat.app', 'Contents', 'MacOS', 'Praat') # PRAAT execetuable
 audio_dir = os.path.join(os_sep, '') # audio data
 data_dir = os.path.join(os_sep, '') #csv output
-dem_dir = os.path.join(os_sep, '') #txt files that contain the subject id's of the participants in each group`
+dem_dir = os.path.join(os_sep, '') #txt files that contain the subject id's of the participants in each group
+`
 
 The **txt files with the participant ids and extracted csv files are available upon request**, if the csv files are already created you can skip to step 3, detailed explanations of each step are supplied in the Jupyter Notebook containing the analysis code.
 
